@@ -1,11 +1,9 @@
-import java.util.*;
 class Q_3
  {
-    
     public static void main(String[] args) 
 	{
         System.out.print("Enter n: ");
-        int n = new Scanner(System.in).nextInt();
+        int n = Integer.parseInt(args[0]);
         
         for (int m = 2, c = 0, i; c < n; m++)
 			{

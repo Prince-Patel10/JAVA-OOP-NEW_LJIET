@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Q_2 {
     public static void main(String[] args) 
     {
@@ -9,7 +8,7 @@ class Q_2 {
 
         int sum=0;
 
-            // use while loop for checking number of digits
+        // use while loop for checking number of digits
         for(int i = 1; i <=3 ; i++)
         {
             int digit = n %10;
