@@ -18,6 +18,7 @@ class Q_9 {
     void deposit(int amount)
     {
         balance = balance + amount;
+        System.out.println("\nDeposited "+amount);
     }
     public static void main(String[] args) {
         Q_9 ob = new Q_9();
