@@ -30,10 +30,10 @@ class SalariedEmployee extends Q_10 {
     }
 // Method to update details
 
-    void update(String desig, double salary) {
-        designation = desig;
-        monthly_salary = salary;
-    }
+    //void update(String desig, double salary) {
+        //designation = desig;
+        //monthly_salary = salary;
+    //}
 // Method to display all details
 
     void displayAll() {
