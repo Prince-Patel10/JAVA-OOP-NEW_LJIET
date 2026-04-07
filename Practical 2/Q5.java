@@ -1,6 +1,5 @@
 public class Q5 {
     int x,y;
-    int result = 0;
    public static int power(int x,int y)
   {
     int result=1;
@@ -18,11 +17,11 @@ public class Q5 {
         
      try {
           if(y<0)
-    {
-      throw new ArithmeticException("Exponent cannot be negative");
-    }
-    else
-        System.out.println(x+" power "+y+" = "+result);
+              {
+                System.out.println("Exponent cannot be negative");
+              }
+          else
+              System.out.println(x+" power "+y+" = "+result);
       } catch (Exception e) {
         System.out.println(e.getMessage());
       }

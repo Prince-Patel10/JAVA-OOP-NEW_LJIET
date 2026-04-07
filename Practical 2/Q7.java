@@ -6,7 +6,7 @@ public class Q7 {
           int y = Integer.parseInt(args[2]);
             
           if (args.length < 3) {
-                throw new IllegalArgumentException("Usage: java Calculator <num1> <operator> <num2>");
+                System.out.println("Usage: java Calculator <num1> <operator> <num2>");
             }
 
         double result=0;
@@ -18,7 +18,7 @@ public class Q7 {
             case "-" :
                 result = x-y;
                 break;
-            case "*" :
+            case "@" :
                 result = x*y;
                 break;
             case "/" :
@@ -32,18 +32,9 @@ public class Q7 {
             System.out.println("Operator : " + choice);
             System.out.println("Result   : " + result);
 
-        } catch (NumberFormatException e) {
-           
-            System.out.println("Error: Invalid number format!");
-            System.out.println("Please enter valid numbers (e.g., 10, 3.5)");
+        } 
 
-        } catch (ArithmeticException e) {
-            System.out.println("Error: " + e.getMessage());
-
-        } catch (IllegalArgumentException e){
-            System.out.println("Error: " + e.getMessage());
-
-        } catch (Exception e) {
+        catch (Exception e) {
             System.out.println("Unexpected error: " + e.getMessage());
         }
     }    
