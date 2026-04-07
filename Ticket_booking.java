@@ -3,7 +3,6 @@ public class Ticket_booking extends Thread{
     {
         for(int i = 1;i<=5;i++)
         {
-        
         System.out.println(Thread.currentThread().getName()+ " has booked ticket "+i);
         }
     }
